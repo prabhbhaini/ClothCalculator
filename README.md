@@ -57,3 +57,9 @@ This project is open-source and available under the **MIT License**. See the [LI
 
 I have chosen the **MIT License** for this project because it is a permissive open-source license. This means that anyone can freely use, modify, and distribute the code, even for commercial purposes, as long as they include the original license in any distributed versions of the code. The MIT License is one of the most commonly used licenses for open-source software, as it provides a good balance between freedom for users and legal protection for the author.
 
+## Enhancements
+**Add a Progress Bar for Calculating Rewards**
+   - **Description**: Currently, when the user submits the form to calculate the rewards, there is no indication of the process happening in the background. We plan to add a **progress bar** or **loading spinner** to provide users with feedback while the form is being processed.
+   - **Expected Outcome**: A visual indicator will be shown while the calculation is happening, and it will disappear once the results are displayed.
+
+

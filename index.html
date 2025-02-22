@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- NAME: PRABHJOT SINGH
+    STUDENT NO. 8980401 :
+    DATE :  21 JUNE 2024-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Rewards Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <h1>
+        INPUT
+    </h1>
+
+    <div class="container">
+
+        
+        <h2> Rewards Calculator</h2>
+        <form id="rewardsForm">
+            <label for="customerName">Customer Name*:</label>
+            <input type="text" id="customerName" name="customerName" required>
+            <br><br>
+            
+            <label for="customerEmail">Customer Gmail*:</label>
+            <input type="email" id="customerEmail" name="customerEmail" required pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$">
+            <br><br>
+
+            <label for="customerNumber">Customer Number*:</label>
+            <input type="text" id="customerNumber" name="customerNumber" required pattern="^\d{5}[A-Za-z]{2}$">
+            <br><br>
+            
+            <label for="clothingCost">Total Cost of Clothings*: $</label>
+            <input type="number" id="clothingCost" name="clothingCost" required>
+            <br><br>
+            
+            <label for="accessoriesCost">Total Cost of Accessories*:  $</label>
+            <input type="number" id="accessoriesCost" name="accessoriesCost" required>
+            <br><br>
+            
+            <label for="rewardsReceived">Rewards Received*: $</label>
+            <input type="number" id="rewardsReceived" name="rewardsReceived" required>
+            <br><br>
+            
+            <button type="submit">Calculate Rewards</button>
+        </form>
+        
+        <div id="results" class="results" style="display:none;">
+            <h2>Rewards Summary</h2>
+            <p id="customerNameOutput"></p>
+            <p id="customerEmailOutput"></p>
+            <p id="customerNumberOutput"></p>
+            <p id="totalPurchase"></p>
+            <p id="totalRewards"></p>
+            <p id="rewardsReceived"></p>
+            <p id="rewardsPending"></p>
+        </div>
+    </div>
+    <script src="javascript/script.js"></script>
+</body>
+</html>

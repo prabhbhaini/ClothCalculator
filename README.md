@@ -42,13 +42,13 @@ I have chosen the **MIT License** for this project because it is a permissive op
 
 ## Project Wiki
 
-For more detailed information about the project, including our version control system and collaboration practices, please refer to the [Wiki](https://github.com//prabhbhaini/ClothCalculator/wiki).
+For more detailed information about the project, including our version control system and collaboration practices, please refer to the [Wiki](https://github.com/prabhbhaini/ClothCalculator/wiki/Source-Control-for-Rewards-Calculator).
 
 
 ## Enhancements 
 **Add a Progress Bar for Calculating Rewards**
    - **Description**: Currently, when the user submits the form to calculate the rewards, there is no indication of the process happening in the background. We plan to add a **progress bar** or **loading spinner** to provide users with feedback while the form is being processed.
    - **Expected Outcome**: A visual indicator will be shown while the calculation is happening, and it will disappear once the results are displayed
-   - For enhancements, please check the [issue tracker](https://github.com/prabhbhaini/ClothCalculator/issues1) for more information.
+   - For enhancements, please check the [issue tracker](https://github.com/prabhbhaini/ClothCalculator/issues/1) for more information.
 
 

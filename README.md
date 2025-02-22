@@ -47,6 +47,13 @@ This tool helps users keep track of their earned rewards and understand how much
 
 4. **Test the Calculator**:
    - Input a customer's information and total costs to calculate the rewards and view the result.
+## License
 
-### Folder Structure
+This project is open-source and available under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+
+---
+
+## License Explanation
+
+I have chosen the **MIT License** for this project because it is a permissive open-source license. This means that anyone can freely use, modify, and distribute the code, even for commercial purposes, as long as they include the original license in any distributed versions of the code. The MIT License is one of the most commonly used licenses for open-source software, as it provides a good balance between freedom for users and legal protection for the author.
 
